@@ -1,0 +1,60 @@
+@charset "UTF-8";
+:root {
+  --main-title-color:#212121;
+  --hero-title-color:#FFFFFF;
+  --main-text-color:#757575;
+  --second-text-color:#FFFFFF;
+  --accent-color:#2196F3;
+  --logo-header-color: #000000;
+  --logo-footer-color:#FFFFFF;
+  --mail-tel-footer-color: rgba(255, 255, 255, 0.6);
+  --main-background-color:#FFFFFF;
+  --hero-footer-background-color:#2F303A;
+  --second-background-color:#F5F4FA;
+  --line-color:#ECECEC;
+  --icon-link-color:#AFB1B8;
+  --border-card-color:#EEEEEE;
+}
+
+/* основной цвет заголовков #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент цвет, кнопка  #2196F3 */
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона герой футер #2F303A */
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-background-color);
+  color: var(--main-title-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, p, a, ul, li, span {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /*outline: 2px solid yellow;*/
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  /*outline: 2px solid tomato;*/
+}
+/*# sourceMappingURL=main.css.map */
