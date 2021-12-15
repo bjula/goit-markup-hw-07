@@ -6,7 +6,24 @@
     text-decoration: none;
 }
 
-h1, h2, h3, h4, p, a, ul, li, span{
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+a, 
+ul, 
+li, 
+span{
     margin: 0;
     padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    cursor: pointer;
 }

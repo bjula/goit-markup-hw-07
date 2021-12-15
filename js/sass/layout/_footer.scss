@@ -14,12 +14,8 @@
 }
 
 .logo.footers{
-    display: inline-block;
+    // display: inline-block;
     margin-bottom: 20px;
-}
-
-.logo-footer{
-    color: var(--logo-footer-color);
 }
 
 .address{
@@ -40,11 +36,10 @@
     color: var(--mail-tel-footer-color);
     margin-top: 9px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-item .link:hover,
-.address-item .link:focus{
-    color: var(--accent-color);
+    &:hover,
+    &:focus{
+        color: var(--accent-color);
+    }
 }
 
 .footer-title{
@@ -75,12 +70,10 @@
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--second-text-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.footer-link:hover,
-.footer-link:focus{
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus{
+        background-color: var(--accent-color);
+    }
 }
 
 .footer-icon{
@@ -107,32 +100,27 @@
     box-sizing: border-box;
     min-width: 358px;
     padding: 15px 16px;
-    /* outline: none; */
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: var(--logo-footer-color);
-
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-input::placeholder{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: var(--mail-tel-footer-color);
-
-}
-
-.footer-input:focus{
-    outline: none;
-    border-color: var(--accent-color);
+    &::placeholder{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: var(--mail-tel-footer-color);
+    }
+    &:focus{
+        outline: none;
+        border-color: var(--accent-color);
+    }
 }
 
 .btn-send{

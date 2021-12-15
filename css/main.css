@@ -37,9 +37,26 @@ body {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, p, a, ul, li, span {
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+ul,
+li,
+span {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
@@ -58,6 +75,19 @@ h1, h2, h3, h4, p, a, ul, li, span {
   /*outline: 2px solid tomato;*/
 }
 
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: var(--logo-header-color);
+}
+
 .page-header {
   border-bottom: 1px solid var(--line-color);
 }
@@ -72,21 +102,8 @@ h1, h2, h3, h4, p, a, ul, li, span {
 }
 
 /* -------------------logo styles------------------- */
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
 .nav .logo {
   margin-right: 93px;
-}
-
-.logo-header {
-  color: var(--logo-header-color);
 }
 
 /* --------------------site nav----------------------*/
@@ -450,8 +467,7 @@ h1, h2, h3, h4, p, a, ul, li, span {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border-color: var(--accent-color);
 }
 
@@ -463,9 +479,12 @@ h1, h2, h3, h4, p, a, ul, li, span {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
+.client-link:hover .client-icon, .client-link:focus .client-icon {
   color: var(--accent-color);
+}
+
+.client-item {
+  color: blanchedalmond;
 }
 
 .buttons-list {
