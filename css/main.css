@@ -107,6 +107,30 @@ button {
   margin-bottom: 50px;
 }
 
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.subtitle--color-light {
+  color: var(--second-text-color);
+}
+
+.subtitle--color-dark {
+  color: var(--main-title-color);
+}
+
+.benefits__subtitle {
+  margin-bottom: 10px;
+}
+
+.footer__subtitle {
+  margin-bottom: 20px;
+}
+
 .social-list {
   display: flex;
   align-items: center;
@@ -315,12 +339,12 @@ button {
   margin: -1px;
 }
 
-.benefit-list {
+.benefits__list {
   display: flex;
   margin-left: -30px;
 }
 
-.benefit-item {
+.benefits__item {
   flex-basis: calc(100%/4 - 30px);
   margin-left: 30px;
 }
@@ -328,7 +352,7 @@ button {
 /* .benefit-item:not(:last-child){
     margin-right: 30px;
 } */
-.benefit-box {
+.benefits__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -339,22 +363,12 @@ button {
   margin-bottom: 30px;
 }
 
-.benefit-icon {
+.benefits__icon {
   width: 70px;
   height: 70px;
 }
 
-.benefit-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-title-color);
-  margin-bottom: 10px;
-}
-
-.benefit-text {
+.benefits__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -387,7 +401,7 @@ button {
   max-width: 100%;
 }
 
-.works__label {
+.works__subtitle {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -396,12 +410,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--second-text-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -616,12 +624,12 @@ button {
   background-color: var(--hero-footer-background-color);
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-box {
+.footer__box {
   margin-right: 70px;
 }
 
@@ -651,16 +659,6 @@ button {
 
 .address-item .link:hover, .address-item .link:focus {
   color: var(--accent-color);
-}
-
-.footer-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--second-text-color);
-  margin-bottom: 20px;
 }
 
 .footer-form {

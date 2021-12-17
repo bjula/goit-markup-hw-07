@@ -57,48 +57,52 @@
         </section>
 
         <!--        section benefits (преимущества)         -->
-        <section class="section">
-            <div class="container benefits">
-                <h2 class="visually-hidden">Преимущества</h2>
-                <ul class="list benefit-list">
-                    <li class="benefit-item">
-                        <div class="benefit-box">
-                            <svg class="benefit-icon">
+        <section class="section benefits">
+            <div class="container">
+                <h2 class="title visually-hidden">Преимущества</h2>
+                <ul class="benefits__list list">
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="benefit-title">Внимание к деталям</h3>
-                        <p class="benefit-text">Идейные соображения, а также начало повседневной
+                        <h3 class="benefits__subtitle subtitle 
+                        subtitle--color-dark">Внимание к деталям</h3>
+                        <p class="benefits__text">Идейные соображения, а также начало повседневной
                             работы по формированию позиции.</p>
                     </li>
-                    <li class="benefit-item">
-                        <div class="benefit-box">
-                            <svg class="benefit-icon">
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="benefit-title">Пунктуальность</h3>
-                        <p class="benefit-text">Задача организации, в особенности же рамки и
+                        <h3 class="benefits__subtitle subtitle 
+                        subtitle--color-dark">Пунктуальность</h3>
+                        <p class="benefits__text">Задача организации, в особенности же рамки и
                             место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="benefit-item">
-                        <div class="benefit-box">
-                            <svg class="benefit-icon">
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="benefit-title">Планирование</h3>
-                        <p class="benefit-text">Равным образом консультация с широким активом
+                        <h3 class="benefits__subtitle subtitle 
+                        subtitle--color-dark">Планирование</h3>
+                        <p class="benefits__text">Равным образом консультация с широким активом
                             в значительной степени обуславливает.</p>
                     </li>
-                    <li class="benefit-item">
-                        <div class="benefit-box">
-                            <svg class="benefit-icon">
+                    <li class="benefits__item">
+                        <div class="benefits__box">
+                            <svg class="benefits__icon">
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="benefit-title">Современные технологии</h3>
-                        <p class="benefit-text">Значимость этих проблем настолько очевидна, что
+                        <h3 class="benefits__subtitle subtitle 
+                        subtitle--color-dark">Современные технологии</h3>
+                        <p class="benefits__text">Значимость этих проблем настолько очевидна, что
                             реализация плановых заданий.</p>
                     </li>
                 </ul>
@@ -113,21 +117,24 @@
                     <div class="works__thumb">
                         <img class="works__photo" src="./images/img1.jpg" alt="Работа на планшете 
                             с клавиатурой. HTML-верстка по схемме на листе тумаги." width="370" height="294">
-                        <p class="works__label">Десктопные приложения</p>
+                        <p class="works__subtitle subtitle 
+                        subtitle--color-light">Десктопные приложения</p>
                     </div>
                 </li>
                 <li class="works__item">
                     <div class="works__thumb">
                         <img class="works__photo" src="./images/img2.jpg" alt="Выбор макета интерфейса для 
                             смартфона на ноутбуке. Смартфон в руке." width="370" height="294">
-                        <p class="works__label">Мобильные приложения</p>
+                        <p class="works__subtitle subtitle 
+                        subtitle--color-light">Мобильные приложения</p>
                     </div>
                 </li>
                 <li class="works__item">
                     <div class="works__thumb">
                         <img class="works__photo" src="./images/img3.jpg" alt="Работа с цветовым кругом 
                             на графическом планшете" width="370" height="294">
-                        <p class="works__label">Дизайнерские решения</p>
+                        <p class="works__subtitle subtitle 
+                        subtitle--color-light">Дизайнерские решения</p>
                     </div>
                 </li>
             </ul>
@@ -358,8 +365,8 @@
     </main>
     <!--                   footer                         -->
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-box">
+        <div class="container footer__container">
+            <div class="footer__box">
                 <a href="./index.html" class="logo footers link">Web<span class="logo-footer">Studio</span></a>
                 <address class="address">
                     <p>г. Киев, пр-т Леси Украинки, 26</p>
@@ -374,7 +381,8 @@
                 </address>
             </div>
             <div>
-                <h3 class="footer-title">присоединяйтесь</h3>
+                <h3 class="footer__subtitle subtitle 
+                        subtitle--color-light">присоединяйтесь</h3>
                 <ul class="footer__social-list social-list list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link link
@@ -411,7 +419,8 @@
                 </ul>
             </div>
             <div class="footer-form">
-                <h3 class="footer-title">Подпишитесь на рассылку</h3>
+                <h3 class="footer__subtitle subtitle 
+                        subtitle--color-light">Подпишитесь на рассылку</h3>
                 <form class="footer-mail-form" autocomplete="off">
                     <label for="mail">
                         <input type="email" name="mail" id="mail" placeholder="E-mail" class="footer-input">

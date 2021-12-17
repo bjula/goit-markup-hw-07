@@ -25,7 +25,7 @@
     max-width: 100%;
 }
 
-.works__label{
+.works__subtitle{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -35,12 +35,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     
-    color: var(--second-text-color);
     background-color: rgba(47, 48, 58, 0.8);
 }

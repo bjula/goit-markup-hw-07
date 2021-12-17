@@ -4,12 +4,12 @@
     background-color: var(--hero-footer-background-color);
 }
 
-.footer-container{
+.footer__container{
     display: flex;
     align-items: baseline;
 }
 
-.footer-box{
+.footer__box{
     margin-right: 70px;
 }
 
@@ -42,15 +42,7 @@
     }
 }
 
-.footer-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--second-text-color);
-    margin-bottom: 20px;
-}
+
 
 .footer-form{
     margin-left: auto;
