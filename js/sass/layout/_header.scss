@@ -2,35 +2,26 @@
     border-bottom: 1px solid var(--line-color);
 }
 
-.main-nav{
+.page-header__main-nav{
     display: flex;
 }
 
-.nav{
+.sit-nav{
     display: flex;
     align-items: center;
 }
  
-/* -------------------logo styles------------------- */
-
-
-
-.nav .logo {
-   margin-right: 93px; 
-}
-
-
-/* --------------------site nav----------------------*/
-
-.site-nav{
+.link-list{
     display: flex;
 }
 
-.site-nav .item:not(:last-child){
-    margin-right: 50px;
+.link-list__item{
+    &:not(:last-child){
+        margin-right: 50px;
+    }
 }
 
-.site-nav-link{
+.link-list__link{
     position: relative;
     display: block;
     padding-top: 32px;
@@ -48,7 +39,8 @@
     }
 }
 
-.current{
+.link-list__link--current{
+    color: var(--accent-color);
     &::after{
         content: "";
         width: 100%;
