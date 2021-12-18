@@ -444,44 +444,44 @@
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
             </button>
-            <form class="modal__form" autocomplete="off">
-                <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
-                <div class="form-field">
-                    <label for="name">Имя</label>
-                    <div class="form-input-wrap">
-                        <input type="text" name="name" id="name">
-                        <svg class="form-icon">
+            <form class="modal__form form" autocomplete="off">
+                <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
+                <div class="form__field">
+                    <label for="name" class="form__label">Имя</label>
+                    <div class="form__input-wrap">
+                        <input type="text" name="name" id="name" class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label for="tel">Телефон</label>
-                    <div class="form-input-wrap">
-                        <input type="tel" name="tel" id="tel">
-                        <svg class="form-icon">
+                <div class="form__field">
+                    <label for="tel" class="form__label">Телефон</label>
+                    <div class="form__input-wrap">
+                        <input type="tel" name="tel" id="tel" class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label for="email">Почта</label>
-                    <div class="form-input-wrap">
-                        <input type="email" name="email" id="email">
-                        <svg class="form-icon">
+                <div class="form__field">
+                    <label for="email" class="form__label">Почта</label>
+                    <div class="form__input-wrap">
+                        <input type="email" name="email" id="email" class="form__input">
+                        <svg class="form__icon">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
                     </div>
                 </div>  
-                <div class="form-field form-comment">
-                    <label for="comment">Комментарий</label>
-                    <textarea name="comment" id="comment" rows="5" placeholder="Введите текст"></textarea>
+                <div class="form__field form-comment">
+                    <label for="comment" class="form__label">Комментарий</label>
+                    <textarea name="comment" id="comment" rows="5" placeholder="Введите текст" class="form__textarea"></textarea>
                 </div>   
-                <div class="form-check">
-                    <input type="checkbox" name="agreement" id="agreement" class="input-check visually-hidden">
-                    <label for="agreement" class="check-text">
-                        <span class="check-item">
-                            <svg class="check-icon">
+                <div class="form__check check">
+                    <input type="checkbox" name="agreement" id="agreement" class="check__input visually-hidden">
+                    <label for="agreement" class="check__label">
+                        <span class="check__item">
+                            <svg class="check__icon">
                                 <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </span> Соглашаюсь с рассылкой и принимаю <a href="" class="link-agreement">Условия договора</a>
